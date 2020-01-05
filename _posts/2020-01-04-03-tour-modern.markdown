@@ -1,6 +1,6 @@
 ---
-title:  "Бизнес и знать"
-subtitle: "Современный и аристократическй районы Стокгольма"
+title:  "Бизнес и дворянство"
+subtitle: "Современный и аристократический районы Стокгольма"
 author: "Рыжий Гид"
 avatar: "img/authors/stockholm-red.png"
 image: "img/modern.jpg"

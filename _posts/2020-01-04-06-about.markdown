@@ -1,6 +1,6 @@
 ---
 title:  "Обо мне"
-subtitle: "Чем я занимаюсь и как так вышло"
+subtitle: "Чем я занимаюсь, и как так вышло"
 author: "Рыжий Гид"
 avatar: "img/authors/stockholm-red.png"
 image: "img/stockholm-red.jpg"
