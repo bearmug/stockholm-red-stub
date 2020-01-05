@@ -1,0 +1,9 @@
+---
+title:  "Привидения Стокгольма"
+subtitle: "Будет страшно интересно!"
+author: "Рыжий Гид"
+avatar: "img/authors/stockholm-red.png"
+image: "img/boo.jpg"
+date:   2020-01-04 22:24:12
+---
+

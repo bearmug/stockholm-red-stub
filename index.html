@@ -13,7 +13,6 @@ layout: compress
     <meta name="author" content="{{ site.author }}"/>
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
     <link rel="stylesheet" type="text/css" href="css/modern-blog.css"/>
     <!--[if IE]>
     <script type="text/javascript" src="js/vendors/html5.min.js"></script>
@@ -24,17 +23,13 @@ layout: compress
             root.setAttribute('class', 'ff');
         }
     </script>
+    {% include ga.html %}
 </head>
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
-        <nav class="links">
-            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-            <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
-        </nav>
+        <h1>{{ site.title }}<span>{{ site.description }}</span></h1>
+        {% include links.html %}
     </header>
     <div class="content">
         <!-- trianglify pattern container -->
@@ -69,6 +64,11 @@ layout: compress
                             </div>
                             {{ post.content }}
                         </div>
+                        <div class="card__footer">
+                            <h2 class="card__request_question">{{ site.request.question }}</h2>
+                            <p class="card__request_answer">{{ site.request.action }}</p>
+                            {% include links.html %}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,6 +83,7 @@ layout: compress
 <script src="js/vendors/TweenMax.min.js"></script>
 <script src="js/vendors/ScrollToPlugin.min.js"></script>
 <script src="js/vendors/cash.min.js"></script>
+<script src="js/vendors/font-awesome.js"></script>
 <script src="js/card-modern-blog.js"></script>
 <script src="js/modern-blog.js"></script>
 </body>

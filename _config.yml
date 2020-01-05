@@ -1,7 +1,18 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: Рыжий Гид в Стокгольме!
+description: Экскурсии и впечатления.
+keywords: стокгольм, рыжий гид, экскурсия, гид, гид швеция, прогулки
+author: stockholm_red
+baseurl: ""
+url: "https://stockholm.red"
+
+request:
+  question: Интересует экскурсия?
+  action: Напишите Рыжему Гиду прямо сейчас!
+
+links:
+  instagram: https://www.instagram.com/stockholm_red/
+  facebook: https://www.facebook.com/foxy.guide/
+  telegram: https://t.me/Stockholm_red
+
+theme: jekyll-theme-cayman

@@ -1,0 +1,10 @@
+---
+title:  "Бизнес и знать"
+subtitle: "Современные и аристократические районы Стокгольма"
+author: "Рыжий Гид"
+avatar: "img/authors/stockholm-red.png"
+image: "img/c.jpg"
+date:   2020-01-04 22:24:12
+---
+
+
