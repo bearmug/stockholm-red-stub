@@ -1,0 +1,13 @@
+<script type="text/javascript">
+    function sendPageView() {
+        var toURL = window.location.href;
+        ga('send', 'pageview', toURL);
+        ym(56915911, 'hit', toURL);
+    }
+
+    function sendOutgoingHit(destination) {
+        ga('send', 'event', 'outgoingLink', 'hit', destination);
+        ym(56915911, 'reachGoal', destination);
+    }
+</script>
+

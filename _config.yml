@@ -1,6 +1,6 @@
 # Site settings
 title: Рыжий Гид в Стокгольме!
-description: Экскурсии и впечатления.
+description: Экскурсии и впечатления
 keywords: стокгольм, рыжий гид, экскурсия, гид, гид швеция, прогулки
 author: stockholm_red
 baseurl: ""
@@ -14,5 +14,6 @@ links:
   instagram: https://www.instagram.com/stockholm_red/
   facebook: https://www.facebook.com/foxy.guide/
   telegram: https://t.me/Stockholm_red
+  whatsapp: https://wa.me/46739291819
 
 theme: jekyll-theme-cayman
